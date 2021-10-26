@@ -14,21 +14,72 @@
 </head>
 
 <body>
-    <div id='alto' class="container bg-secondary">
-        <div class="card mb-2 bg-dark text-white">
+
+
+    <template id="mensaje_chat"><div class="card mb-2 {COLOR} text-white">
             <div class="card-body">
-                <h6 class="card-title">Personaje 1</h6>
-                mensaje chat 1
+                <img src="{IMAGEN}" id ={perfil} class='rounded float-start me-4' width='100px' height="100px"></img>
+                <h6 class="card-title">{NOMBRE_PERSONAJE}</h6>
+                {MENSAJE}
+                <footer><em>{TIEMPO}</em></footer>
+            </div>
+        </div></template>
+    <div id='alto' class="container bg-secondary d-flex h-100">
+        <div id="mensajes" class="mt-auto w-100">
+
+            <div class="card mb-2 ">
+                <div class="card-body">
+                    ❗ Presiona Intro para comenzar
+                </div>
             </div>
         </div>
-        <div class="card mb-2 bg-dark text-white">
-            <div class="card-body">
-                <img src="black-avatar-3025348_1280.png" class='rounded float-end me-4' width='100px' height="100px"></img>
-                <h6 class="card-title">Personaje 2</h6>
-                mensaje chat 1
-            </div>
-        </div>
+
     </div>
+    <script>
+        var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
+        var i = 0;
+        var mensajes = [{
+            nombre_personaje: "Prof. Oscar",
+            mensaje: "Hola",
+            imagen_de_perfil: "perfil1.png",
+            hora_de_envio: "5:00 PM",
+            color: "bg-secondary"
+        }, {
+            nombre_personaje: "Eric",
+            mensaje: "Hola 🖐",
+            imagen_de_perfil: "perfil2.png",
+            hora_de_envio: "5:10 PM",
+            color: "bg-dark"
+        }, {
+            nombre_personaje: "Prof. Oscar",
+            mensaje: "Hiciste tu tarea?",
+            imagen_de_perfil: "perfil1.png",
+            hora_de_envio: "5:20 PM",
+            color: "bg-secondary"
+        }, {
+            nombre_personaje: "Eric",
+            mensaje: "Si profe",
+            imagen_de_perfil: "perfil2.png",
+            hora_de_envio: "5:30 PM",
+            color: "bg-dark"
+        }];
+        document.addEventListener("keydown", tecleo)
+
+        function tecleo(evento) {
+            if (evento.code == 'Enter' && i < mensajes.length) {
+                var html = mensaje_template;
+
+                html = html.replace("{NOMBRE_PERSONAJE}", mensajes[i].nombre_personaje);
+                html = html.replace("{MENSAJE}", mensajes[i].mensaje);
+                html = html.replace("{IMAGEN}", mensajes[i].imagen_de_perfil);
+                html = html.replace("{TIEMPO}", mensajes[i].hora_de_envio);
+                html = html.replace("{COLOR}", mensajes[i].color);
+                document.getElementById("mensajes").innerHTML += html;
+                i++;
+            }
+        }
+    </script>
+
 </body>
 
 </html>
