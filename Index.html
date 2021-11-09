@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 </head>
 
@@ -24,6 +25,12 @@
                 <footer><em>{TIEMPO}</em></footer>
             </div>
         </div></template>
+    <div id="cortinilla" class="bg-dark text-white w-100 h-100 fixed-top d-flex  animate__slower" onclick="desvanecer()">
+        <div class="w-100 my-auto text-center">
+            <p id="textoC" class="fs-1">Esta historia está basada en hechos reales</p>
+            <p class="animate__animated animate__pulse animate__infinite">(Haz click para comenzar)</p>
+        </div>
+    </div>
     <div id='alto' class="container bg-secondary d-flex h-100">
         <div id="mensajes" class="mt-auto w-100">
 
@@ -36,6 +43,7 @@
 
     </div>
     <script>
+        var canMove = false;
         var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
         var i = 0;
         var mensajes = [{
@@ -66,7 +74,7 @@
         document.addEventListener("keydown", tecleo)
 
         function tecleo(evento) {
-            if (evento.code == 'Enter' && i < mensajes.length) {
+            if (evento.code == 'Enter' && i < mensajes.length && canMove) {
                 var html = mensaje_template;
 
                 html = html.replace("{NOMBRE_PERSONAJE}", mensajes[i].nombre_personaje);
@@ -77,6 +85,25 @@
                 document.getElementById("mensajes").innerHTML += html;
                 i++;
             }
+            if (evento.code == 'Enter' && i == mensajes.length) {
+                aparecer();
+            }
+        }
+
+        function aparecer() {
+            document.getElementById("textoC").innerHTML = "Mientras tanto Juan...";
+            document.getElementById("cortinilla").classList.remove("animate__fadeOut");
+            document.getElementById("cortinilla").classList.add("animate__fadeIn");
+            canMove = false;
+        }
+
+        function desvanecer() {
+            document.getElementById("cortinilla").classList.remove("animate__animated");
+
+            document.getElementById("cortinilla").classList.remove("animate__fadeIn");
+            document.getElementById("cortinilla").classList.add("animate__fadeOut");
+            document.getElementById("cortinilla").classList.add("animate__animated");
+            canMove = true;
         }
     </script>
 
