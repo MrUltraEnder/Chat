@@ -1,0 +1,65 @@
+[{
+        "nombre_personaje": "El Pedas",
+        "mensaje": "Jalense a la peda hoy a las 8, traigan lo que quieran tomar ",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "4: 12 pm ",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El Mike",
+        "mensaje": "saquen las caguamas ",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "4:12 pm.",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "va a haber degenere?",
+        "imagen_de_perfil": "chivo.jpg",
+        "hora_de_envio": "4:15 pm",
+        "color": "bg-purple",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El Pedas",
+        "mensaje": "Simona la mona",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "4:18 pm",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "yo llevo la mota",
+        "imagen_de_perfil": "nayeli.jpg",
+        "hora_de_envio": "4:20 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "vavavvavava",
+        "imagen_de_perfil": "juan.jpg",
+        "hora_de_envio": "4:32 pm",
+        "color": "bg-blue",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :(",
+        "imagen_de_perfil": "juan.jpg",
+        "hora_de_envio": "8:13 pm",
+        "color": "bg-blue",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :(",
+        "imagen_de_perfil": "juan.jpg",
+        "hora_de_envio": "8:13 pm",
+        "color": "bg-blue",
+        "conversacion": "con2"
+    }
+]
