@@ -84,6 +84,12 @@
                 <div id="con2" class="mt-auto w-100 d-none"></div>
                 <div id="con3" class="mt-auto w-100 d-none"></div>
             </div>
+            <div id="cortinilla" class="bg-dark text-white w-100 h-100 fixed-top d-flex  animate__slower" onclick="desvanecer()">
+                <div class="w-100 my-auto text-center">
+                    <p id="textoC" class="fs-1">Esta historia está basada en hechos reales</p>
+                    <p class="animate__animated animate__pulse animate__infinite">(Haz click para comenzar)</p>
+                </div>
+            </div>
             <script>
                 function con(id) {
                     document.getElementById("con1").classList.add("d-none");
@@ -92,7 +98,7 @@
                     document.getElementById("con" + id).classList.remove("d-none");
 
                 }
-                var canMove = true;
+                var canMove = false;
                 var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
                 var i = 0;
                 var mensajes = null;
@@ -119,6 +125,21 @@
                 function lectura(respuesta) {
                     mensajes = respuesta;
                 }
+                function aparecer() {
+            document.getElementById("textoC").innerHTML = "Mientras tanto Juan...";
+            document.getElementById("cortinilla").classList.remove("animate__fadeOut");
+            document.getElementById("cortinilla").classList.add("animate__fadeIn");
+            canMove = false;
+        }
+
+        function desvanecer() {
+            document.getElementById("cortinilla").classList.remove("animate__animated");
+
+            document.getElementById("cortinilla").classList.remove("animate__fadeIn");
+            document.getElementById("cortinilla").classList.add("animate__fadeOut");
+            document.getElementById("cortinilla").classList.add("animate__animated");
+            canMove = true;
+        }
             </script>
 </body>
 
