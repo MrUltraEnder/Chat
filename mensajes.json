@@ -1,30 +1,30 @@
 [{
         "nombre_personaje": "El Pedas",
-        "mensaje": "Jalense a la peda hoy a las 8, traigan lo que quieran tomar ",
+        "mensaje": "Jalense a la peda hoy a las 8, traigan lo que quieran tomar (enviado a varios)",
         "imagen_de_perfil": "pedas.png",
-        "hora_de_envio": "4: 12 pm ",
+        "hora_de_envio": "4:12 pm",
         "color": "bg-danger",
         "conversacion": "con1"
     },
     {
         "nombre_personaje": "El Mike",
-        "mensaje": "saquen las caguamas ",
+        "mensaje": "saquen las caguamas",
         "imagen_de_perfil": "mike.png",
-        "hora_de_envio": "4:12 pm.",
+        "hora_de_envio": "4:12 pm",
         "color": "bg-orange",
         "conversacion": "con1"
     },
     {
         "nombre_personaje": "El chivo",
-        "mensaje": "va a haber degenere?",
-        "imagen_de_perfil": "chivo.jpg",
+        "mensaje": " va a haber degenere?",
+        "imagen_de_perfil": "chivo.png",
         "hora_de_envio": "4:15 pm",
-        "color": "bg-purple",
+        "color": "bg-warning",
         "conversacion": "con1"
     },
     {
         "nombre_personaje": "El Pedas",
-        "mensaje": "Simona la mona",
+        "mensaje": "simona la mona",
         "imagen_de_perfil": "pedas.png",
         "hora_de_envio": "4:18 pm",
         "color": "bg-danger",
@@ -33,33 +33,857 @@
     {
         "nombre_personaje": "La Nayeli",
         "mensaje": "yo llevo la mota",
-        "imagen_de_perfil": "nayeli.jpg",
+        "imagen_de_perfil": "naye.png",
         "hora_de_envio": "4:20 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "vavavavavavava",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "4:32 pm",
         "color": "bg-green",
         "conversacion": "con1"
     },
     {
         "nombre_personaje": "Juan",
-        "mensaje": "vavavvavava",
-        "imagen_de_perfil": "juan.jpg",
-        "hora_de_envio": "4:32 pm",
-        "color": "bg-blue",
-        "conversacion": "con1"
-    },
-    {
-        "nombre_personaje": "Juan",
-        "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :(",
-        "imagen_de_perfil": "juan.jpg",
+        "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :C",
+        "imagen_de_perfil": "juan.png",
         "hora_de_envio": "8:13 pm",
-        "color": "bg-blue",
+        "color": "bg-green",
         "conversacion": "con2"
     },
     {
         "nombre_personaje": "Juan",
-        "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :(",
-        "imagen_de_perfil": "juan.jpg",
+        "mensaje": "pero te dije que esta semana no, tengo muchas cosas que hacer del trabajo.",
+        "imagen_de_perfil": "juan.png",
         "hora_de_envio": "8:13 pm",
-        "color": "bg-blue",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "además que mañana tengo temprano vienen los directivos.",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "8:14 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "pero me prometiste que saldríamos a divertirnos!! >:v",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "8:17 pm.",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "vez como nunca me haces caso, </3 TU SOLO TE PREOCUPAS POR TI Y TU TRABAJO!! >:v",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "4:12 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Lo compensare lo prometo",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "4:12 pm",
+        "color": "bg-warning",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "oh vamos en serio",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "4:12 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": ":) :) :) :) :) :) :) :)",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "4:12 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "no te pongas así",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "4:12 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "Acabo de ver el estado de enrique",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:00 pm",
+        "color": "bg-warning",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "  :) :) :) :) :) :) :)",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:01 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "¿Estás con él verdad?",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:01 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "¿que? nooo de que me estas hablando?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:15 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "NADA!!!! :) :) :) :) :) :) ",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:15 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": " WEY!!!! AQUI ESTA DIANA!!!!",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:45 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "NO MMS!!! Wey hazle platica paro machin :",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:45 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "NO MMS ME VA A MADREAR WE!!!!",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:48 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Yo lo haria por ti man",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:50 pm.",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": " ME DEBES UNA >:’v",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:50 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "ya sabes que si BB uwu woa pedir un uber preguntale por mi :v",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:50 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "Wenas Wenas Joven voy en camino, pero que debe 80 varos del viaje pasado",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "10:50 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "No hay pedo pero dese prisa :’v",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:50 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "HIJOLE JOVEN… me woa tardar poquito porque traigo pasaje :V",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Le dejo propina haga paro TTwTT ahí viene mi mujer don",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "Vavava pero me deja mis 5 estrellitas jovenazo",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "PINSHI DIANA ME MADREO WEEE",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "No le dijiste que estoy aqui verdad?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "........",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "NO MMS!!",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:51 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "No le dije pero va hacia a ti :’v GG ",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "10:53 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "ACABO DE VER A TU AMIGUITO EL MIKE",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:53 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "SE QUE ESTAS AQUI!! TARADO!!",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "10:53 pm.",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "????",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "10:53 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": ":) :) :) :) :) :) :) :)",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "11:02 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "RUUUN BITCH!!!",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "11:03 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "kha?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:04 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El mike",
+        "mensaje": "Se me escapó",
+        "imagen_de_perfil": "mike.png",
+        "hora_de_envio": "11:05 pm",
+        "color": "bg-orange",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": ":’v oh shit!!",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:06 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "OIGA LE FALTA MUCHO DON??",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:12 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "HIIIIJOLES JOVENAZO que cree que se me  atravesó una marcha de  maestros",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "11:25 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "NO MAME DON ES DE NOCHE!",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:25 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "Pues por 100 varos les hecho la lamina :v",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "11:25 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "LE DOY 150 PERO CAIGALE EN CORTO :’v",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:33 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "vavavavava",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "11:33 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "We no me lo vas a creer aquí anda tu jaina",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:33 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "DETENLA!!! ",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:33 pm.",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "aaah shingaaa yo porque?",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:33 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": " paro",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:36 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "ora que hiciste?",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:36 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": " Le dije que estaba en junta y me vine para acá",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:36 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "Jajajaja ya te cargo xD",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:36 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "Andale pues…. ahi voy xdxd",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:38 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "Listo man es todo lo que pude",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:38 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Gracias man ojala que llegue el Uber pronto",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:38 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "xdxd como que uber xD esos son bien tranzas xD",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:38 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "no me digas :/",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:40 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": " Me encontre a tu amiguito el chivo Juan Debemos hablar",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "11:40 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "se me escapo xdxddd",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:40 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "ya we, igual tu tienes la culpa por mentirle",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:40 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "pero TENIAS QUE ENTRETENERLA ABC",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:45 pm.",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El chivo",
+        "mensaje": "No mms eres igual de toxico que tu Jaina xdxd",
+        "imagen_de_perfil": "chivo.png",
+        "hora_de_envio": "11:45 pm",
+        "color": "bg-warning",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Don le falta mucho??",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:45 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Uber",
+        "mensaje": "Es que hay mucho trafico pero ya voy en camino, estoy mas para alla que pa' aca ",
+        "imagen_de_perfil": "uber.png",
+        "hora_de_envio": "11:45 pm",
+        "color": "bg-secondary",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "NO MANCHE Llevo rato esperándolo lo voy a reportar",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:45 pm",
+        "color": "bg-green",
+        "conversacion": "con3"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Nayeeeeeeeeeeeeee",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "¿Qué quieres?, Ando chida",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Que entretengas a Diana en lo que viene mi uber",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "Esa vieja está loca",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Andale, te invito de california",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "sale se arma",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "O__o Tu novia es un monstruo",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Que paso?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:52 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "Me golpeo tan duro que me bajo del trip",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:55 pm",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "La Nayeli",
+        "mensaje": "sabes mejor… ve con ella y hablalo antes de que esto escale a más",
+        "imagen_de_perfil": "naye.png",
+        "hora_de_envio": "11:55 pm.",
+        "color": "bg-success",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "...",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:55 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "vi de lejos a la vieja rascuacha de tu amiguita >:c ya se que estas aqui!!!",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "11:55 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "aaaa visto?",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "11:55 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "El Pedas",
+        "mensaje": " Oye tu chica esta aqui y esta fumando dos cigarros",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "11:55 pm",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "..  creo que. son sus ojos",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:57 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El Pedas",
+        "mensaje": "dejame adivinar, le mentiste para venir, verdad?",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "11:57 pm",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "verde :/",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:57 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Pedas",
+        "mensaje": "y quedaste antes con ella cierto?",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "11:57 pm",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "VERDE D:",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:58 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "El Pedas",
+        "mensaje": " Y tienes una relación problemática con ella donde tu herida del abandono se complementa con su herida de la traición creando una relación de codependencia donde tu eres el blandengue masoquista incapaz de encararla y ella la sádica controladora que vino a buscarte?",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "11:58 pm",
+        "color": "bg-danger",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "creo...",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:58 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Pedas",
+        "mensaje": "y necesitas que la distraiga para escapar",
+        "imagen_de_perfil": "pedas.png",
+        "hora_de_envio": "11:58 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "Y E S",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "11:59 pm",
+        "color": "bg-green",
+        "conversacion": "con1"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "Juan sabes que olvidalo, no quiero seguir con esto",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "12:06 pm.",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "con que?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:06 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "lo nuestro se ACABO ITS OVER, SEA CABO EN ESTE MOMENTO ITS OVER FOR EVER SE ACABOOO JUAAAAN",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "12:07 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "que pdo porque me corto?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:07 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "FIIIIN TODO TIENE UN FIIIN MENOS EL FUEGO DE TUS OJOS",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:07 pm",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "porque estas cantando?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:07 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "es que tambien soy saul hernandez arriba jaguares",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:09 pm",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "ah el de jaguares y caifanes",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:09 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "asi es banda, como estas bro?, te vas a tatuar hoy chido?",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:09 pm",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "no no no",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:09 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "como entraste a mi casa bro?",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:10 pm",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "es que vengo a ver a mi novia, que se parece mucho a usted",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:10 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "ahorita sale, DIANAAAAA DIANAAAA",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:11 pm",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "no manches no sabia que su papa fuera saul hernandez que cajeto, no?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:11 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "FIIIN TODO TIENE UN FIIIN",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:11 pm.",
+        "color": "bg-brown",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Diana",
+        "mensaje": "TE DIJE QUE TE FUERAS",
+        "imagen_de_perfil": "diana.png",
+        "hora_de_envio": "12:12 pm",
+        "color": "bg-purple",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Juan",
+        "mensaje": "hola?hola?",
+        "imagen_de_perfil": "juan.png",
+        "hora_de_envio": "12:12 pm",
+        "color": "bg-green",
+        "conversacion": "con2"
+    },
+    {
+        "nombre_personaje": "Saul Hernandez",
+        "mensaje": "que paso krnal?",
+        "imagen_de_perfil": "saul.png",
+        "hora_de_envio": "12:12 pm",
+        "color": "bg-brown",
         "conversacion": "con2"
     }
 ]
