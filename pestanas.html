@@ -17,6 +17,10 @@
             background-color: LightSteelBlue;
         }
         
+        .btn-color.active {
+            background-color: ivory;
+        }
+        
         .bg-barra {
             background-color: SteelBlue;
         }
@@ -73,11 +77,11 @@
     <div class="container-fluid h-100">
         <div class="row  h-100">
             <div class="col-2 pt-2 h-100 bg-barra">
-                <button type="button" class="btn btn-color w-100 my-1" onclick="con(1)">
+                <button type="button" id="btn1" class="btn btn-color w-100 my-1" onclick="con(1)">
             grupo de amixes 😎👌
           </button>
-                <button type="button" class="btn btn-color w-100 my-1" onclick="con(2)">bb <3 🤡</button>
-                <button type="button" class="btn btn-color w-100 my-1" onclick="con(3)">Uber 🚓</button>
+                <button type="button" id="btn2" class="btn btn-color w-100 my-1" onclick="con(2)">bb <3 🤡</button>
+                <button type="button" id="btn3" class="btn btn-color w-100 my-1" onclick="con(3)">Uber 🚓</button>
                 <button type="button" id="botonmusica" class="btn btn-color my-1 fixed-bottom" onclick="musica()">🔊</button>
             </div>
             <div id="chats" class="col-10 bg-fondo h-100 d-flex deslizar">
@@ -98,9 +102,13 @@
             <script>
                 function con(id) {
                     document.getElementById("con1").classList.add("d-none");
+                    document.getElementById("btn1").classList.remove("active");
                     document.getElementById("con2").classList.add("d-none");
+                    document.getElementById("btn2").classList.remove("active");
                     document.getElementById("con3").classList.add("d-none");
+                    document.getElementById("btn3").classList.remove("active");
                     document.getElementById("con" + id).classList.remove("d-none");
+                    document.getElementById("btn" + id).classList.add("active");
 
                 }
                 var canMove = true;
@@ -122,8 +130,12 @@
                         html = html.replace("{COLOR}", mensajes[i].color);
                         document.getElementById(mensajes[i].conversacion).innerHTML += html;
                         con(mensajes[i].conversacion.replace("con", ""));
-                        document.getElementById("chats").scrollTo(0, document.body.scrollHeight);
+                        document.getElementById("chats").scrollTo(0, document.getElementById("chats").scrollHeight);
                         i++;
+                        canMove = false;
+                        setTimeout(function() {
+                            canMove = true;
+                        }, 1000);
                     }
                 }
 

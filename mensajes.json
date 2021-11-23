@@ -43,7 +43,7 @@
         "mensaje": "vavavavavavava",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "4:32 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -51,7 +51,7 @@
         "mensaje": "hola amor qué crees que hay junta en el trabajo llegaré tarde. :C",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "8:13 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -59,7 +59,7 @@
         "mensaje": "pero te dije que esta semana no, tengo muchas cosas que hacer del trabajo.",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "8:13 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -67,7 +67,7 @@
         "mensaje": "además que mañana tengo temprano vienen los directivos.",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "8:14 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -75,7 +75,7 @@
         "mensaje": "pero me prometiste que saldríamos a divertirnos!! >:v",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "8:17 pm.",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -83,7 +83,7 @@
         "mensaje": "vez como nunca me haces caso, </3 TU SOLO TE PREOCUPAS POR TI Y TU TRABAJO!! >:v",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "4:12 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -99,7 +99,7 @@
         "mensaje": "oh vamos en serio",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "4:12 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -107,7 +107,7 @@
         "mensaje": ":) :) :) :) :) :) :) :)",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "4:12 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -115,7 +115,7 @@
         "mensaje": "no te pongas así",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "4:12 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -131,7 +131,7 @@
         "mensaje": "  :) :) :) :) :) :) :)",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "10:01 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -139,7 +139,7 @@
         "mensaje": "¿Estás con él verdad?",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "10:01 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -147,7 +147,7 @@
         "mensaje": "¿que? nooo de que me estas hablando?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:15 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -155,7 +155,7 @@
         "mensaje": "NADA!!!! :) :) :) :) :) :) ",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "10:15 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -171,7 +171,7 @@
         "mensaje": "NO MMS!!! Wey hazle platica paro machin :",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:45 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -187,7 +187,7 @@
         "mensaje": "Yo lo haria por ti man",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:50 pm.",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -203,7 +203,7 @@
         "mensaje": "ya sabes que si BB uwu woa pedir un uber preguntale por mi :v",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:50 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -219,7 +219,7 @@
         "mensaje": "No hay pedo pero dese prisa :’v",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:50 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -235,7 +235,7 @@
         "mensaje": "Le dejo propina haga paro TTwTT ahí viene mi mujer don",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:51 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -259,7 +259,7 @@
         "mensaje": "No le dijiste que estoy aqui verdad?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:51 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -275,7 +275,7 @@
         "mensaje": "NO MMS!!",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:51 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -291,7 +291,7 @@
         "mensaje": "ACABO DE VER A TU AMIGUITO EL MIKE",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "10:53 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -299,7 +299,7 @@
         "mensaje": "SE QUE ESTAS AQUI!! TARADO!!",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "10:53 pm.",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -307,7 +307,7 @@
         "mensaje": "????",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "10:53 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -315,7 +315,7 @@
         "mensaje": ":) :) :) :) :) :) :) :)",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "11:02 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -331,7 +331,7 @@
         "mensaje": "kha?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:04 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -347,7 +347,7 @@
         "mensaje": ":’v oh shit!!",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:06 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -355,7 +355,7 @@
         "mensaje": "OIGA LE FALTA MUCHO DON??",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:12 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -371,7 +371,7 @@
         "mensaje": "NO MAME DON ES DE NOCHE!",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:25 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -387,7 +387,7 @@
         "mensaje": "LE DOY 150 PERO CAIGALE EN CORTO :’v",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:33 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -411,7 +411,7 @@
         "mensaje": "DETENLA!!! ",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:33 pm.",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -427,7 +427,7 @@
         "mensaje": " paro",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:36 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -443,7 +443,7 @@
         "mensaje": " Le dije que estaba en junta y me vine para acá",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:36 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -475,7 +475,7 @@
         "mensaje": "Gracias man ojala que llegue el Uber pronto",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:38 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -491,7 +491,7 @@
         "mensaje": "no me digas :/",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:40 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -499,7 +499,7 @@
         "mensaje": " Me encontre a tu amiguito el chivo Juan Debemos hablar",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "11:40 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -523,7 +523,7 @@
         "mensaje": "pero TENIAS QUE ENTRETENERLA ABC",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:45 pm.",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -539,7 +539,7 @@
         "mensaje": "Don le falta mucho??",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:45 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -555,7 +555,7 @@
         "mensaje": "NO MANCHE Llevo rato esperándolo lo voy a reportar",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:45 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con3"
     },
     {
@@ -563,7 +563,7 @@
         "mensaje": "Nayeeeeeeeeeeeeee",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:52 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -579,7 +579,7 @@
         "mensaje": "Que entretengas a Diana en lo que viene mi uber",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:52 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -595,7 +595,7 @@
         "mensaje": "Andale, te invito de california",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:52 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -619,7 +619,7 @@
         "mensaje": "Que paso?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:52 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -643,7 +643,7 @@
         "mensaje": "...",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:55 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -651,7 +651,7 @@
         "mensaje": "vi de lejos a la vieja rascuacha de tu amiguita >:c ya se que estas aqui!!!",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "11:55 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -659,7 +659,7 @@
         "mensaje": "aaaa visto?",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "11:55 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -675,7 +675,7 @@
         "mensaje": "..  creo que. son sus ojos",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:57 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -691,7 +691,7 @@
         "mensaje": "verde :/",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:57 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -707,7 +707,7 @@
         "mensaje": "VERDE D:",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:58 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -723,7 +723,7 @@
         "mensaje": "creo...",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:58 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -731,7 +731,7 @@
         "mensaje": "y necesitas que la distraiga para escapar",
         "imagen_de_perfil": "pedas.png",
         "hora_de_envio": "11:58 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -739,7 +739,7 @@
         "mensaje": "Y E S",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "11:59 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con1"
     },
     {
@@ -747,7 +747,7 @@
         "mensaje": "Juan sabes que olvidalo, no quiero seguir con esto",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "12:06 pm.",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -755,7 +755,7 @@
         "mensaje": "con que?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:06 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -763,7 +763,7 @@
         "mensaje": "lo nuestro se ACABO ITS OVER, SEA CABO EN ESTE MOMENTO ITS OVER FOR EVER SE ACABOOO JUAAAAN",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "12:07 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -771,7 +771,7 @@
         "mensaje": "que pdo porque me corto?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:07 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -779,7 +779,7 @@
         "mensaje": "FIIIIN TODO TIENE UN FIIIN MENOS EL FUEGO DE TUS OJOS",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:07 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -787,7 +787,7 @@
         "mensaje": "porque estas cantando?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:07 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -795,7 +795,7 @@
         "mensaje": "es que tambien soy saul hernandez arriba jaguares",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:09 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -803,7 +803,7 @@
         "mensaje": "ah el de jaguares y caifanes",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:09 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -811,7 +811,7 @@
         "mensaje": "asi es banda, como estas bro?, te vas a tatuar hoy chido?",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:09 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -819,7 +819,7 @@
         "mensaje": "no no no",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:09 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -827,7 +827,7 @@
         "mensaje": "como entraste a mi casa bro?",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:10 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -835,7 +835,7 @@
         "mensaje": "es que vengo a ver a mi novia, que se parece mucho a usted",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:10 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -843,7 +843,7 @@
         "mensaje": "ahorita sale, DIANAAAAA DIANAAAA",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:11 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -851,7 +851,7 @@
         "mensaje": "no manches no sabia que su papa fuera saul hernandez que cajeto, no?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:11 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -859,7 +859,7 @@
         "mensaje": "FIIIN TODO TIENE UN FIIIN",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:11 pm.",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     },
     {
@@ -867,7 +867,7 @@
         "mensaje": "TE DIJE QUE TE FUERAS",
         "imagen_de_perfil": "diana.png",
         "hora_de_envio": "12:12 pm",
-        "color": "bg-purple",
+        "color": "bg-info",
         "conversacion": "con2"
     },
     {
@@ -875,7 +875,7 @@
         "mensaje": "hola?hola?",
         "imagen_de_perfil": "juan.png",
         "hora_de_envio": "12:12 pm",
-        "color": "bg-green",
+        "color": "bg-primary",
         "conversacion": "con2"
     },
     {
@@ -883,7 +883,7 @@
         "mensaje": "que paso krnal?",
         "imagen_de_perfil": "saul.png",
         "hora_de_envio": "12:12 pm",
-        "color": "bg-brown",
+        "color": "bg-white",
         "conversacion": "con2"
     }
 ]
