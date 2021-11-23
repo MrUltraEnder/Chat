@@ -69,11 +69,26 @@
                 <footer><em>{TIEMPO}</em></footer>
             </div>
         </div></template>
+    <template id="mensaje_Juan">
+        <div class="card text-end mb-2 {COLOR} text-white">
+            <div class="card-body">
+                <img src="{IMAGEN}" id ={perfil} class='rounded float-end ms-4' width='100px' height="100px"></img>
+                <h6 class="card-title">{NOMBRE_PERSONAJE}</h6>
+                {MENSAJE}
+                <footer><em>{TIEMPO}</em></footer>
+            </div>
+        </div></template>
     <audio id="musica" autoplay>
   
   <source src="mylie.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+    <audio id="bup">
+  
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
     <div class="container-fluid h-100">
         <div class="row  h-100">
             <div class="col-2 pt-2 h-100 bg-barra">
@@ -113,6 +128,7 @@
                 }
                 var canMove = true;
                 var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
+                var mensaje_juan = document.getElementById("mensaje_Juan").innerHTML;
                 var i = 0;
                 var mensajes = null;
                 fetch('./mensajes.json').then(response => response.json()).then(lectura);
@@ -121,14 +137,22 @@
 
                 function tecleo(evento) {
                     if (evento.code == 'Enter' && i < mensajes.length && canMove) {
-                        var html = mensaje_template;
+
+                        if (mensajes[i].nombre_personaje == "Juan") {
+                            var html = mensaje_juan;
+
+                        } else {
+                            var html = mensaje_template;
+                        }
 
                         html = html.replace("{NOMBRE_PERSONAJE}", mensajes[i].nombre_personaje);
                         html = html.replace("{MENSAJE}", mensajes[i].mensaje);
                         html = html.replace("{IMAGEN}", mensajes[i].imagen_de_perfil);
                         html = html.replace("{TIEMPO}", mensajes[i].hora_de_envio);
                         html = html.replace("{COLOR}", mensajes[i].color);
+
                         document.getElementById(mensajes[i].conversacion).innerHTML += html;
+                        document.getElementById("bup").play();
                         con(mensajes[i].conversacion.replace("con", ""));
                         document.getElementById("chats").scrollTo(0, document.getElementById("chats").scrollHeight);
                         i++;
