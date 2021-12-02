@@ -10,8 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+        .mensajes {
+            min-width: 400px;
+        }
+        
         .bg-fondo {
             background-color: rgb(188, 217, 250);
+        }
+        
+        .bg-fondoBarra {
+            background-color: rgb(175, 212, 255);
         }
         
         .btn-color {
@@ -31,7 +39,7 @@
         }
         
         .bg-pink {
-            background-color: pink;
+            background-color: rgb(199, 86, 105);
         }
         
         .bg-purple {
@@ -51,7 +59,7 @@
         }
         
         .bg-blue {
-            background-color: blue;
+            background-color: rgb(45, 45, 138);
         }
         
         .bg-brown {
@@ -62,23 +70,27 @@
 
 <body class="h-100">
     <template id="mensaje_chat">
-        <div class="card mb-2 {COLOR} text-white">
-            <div class="card-body">
+        <div class="card mb-2 {COLOR} pb-3 d-inline-block text-white mensajes">
+            <div class="card-body pb-0">
                 <img src="{IMAGEN}" id ={perfil} class='rounded float-start me-4' width='100px' height="100px"></img>
                 <h6 class="card-title">{NOMBRE_PERSONAJE}</h6>
                 {MENSAJE}
                 <footer><em>{TIEMPO}</em></footer>
             </div>
-        </div></template>
+        </div><br>
+    </template>
     <template id="mensaje_Juan">
-        <div class="card text-end mb-2 {COLOR} text-white">
-            <div class="card-body">
+        <div class="clearfix">
+        <div class="card text-end d-inline-block mb-2 float-end ms-auto me-0 pb-3 {COLOR} text-white mensajes">
+            <div class="card-body pb-0">
                 <img src="{IMAGEN}" id ={perfil} class='rounded float-end ms-4' width='100px' height="100px"></img>
                 <h6 class="card-title">{NOMBRE_PERSONAJE}</h6>
                 {MENSAJE}
                 <footer><em>{TIEMPO}</em></footer>
             </div>
-        </div></template>
+        </div>
+        </div>
+    </template>
     <audio id="musica" autoplay>
   
   <source src="mylie.mp3" type="audio/mpeg">
@@ -91,17 +103,33 @@
 </audio>
 
     <div class="container-fluid h-100">
+        <div class="fixed-top">
+            <div class="row">
+                <div class="col-2"></div>
+
+                <div class="col-10 py-0">
+                    <img src="amigos.jpg" id="perfilBarra" class='mt-2 float-start me-4' width='50px' height="50px"></img>
+                    <div id="BarraChat" class="bg-fondoBarra fs-2 py-2 ps-3">
+
+                        Grupo de amixes 😎👌</div>
+                </div>
+            </div>
+        </div>
+
         <div class="row  h-100">
             <div class="col-2 pt-2 h-100 bg-barra">
                 <button type="button" id="btn1" class="btn btn-color w-100 my-1" onclick="con(1)">
-            grupo de amixes 😎👌
+            Grupo de amixes 😎👌
           </button>
                 <button type="button" id="btn2" class="btn btn-color w-100 my-1" onclick="con(2)">bb <3 🤡</button>
                 <button type="button" id="btn3" class="btn btn-color w-100 my-1" onclick="con(3)">Uber 🚓</button>
                 <button type="button" id="botonmusica" class="btn btn-color my-1 fixed-bottom" onclick="musica()">🔊</button>
             </div>
-            <div id="chats" class="col-10 bg-fondo h-100 d-flex deslizar">
-                <div id="con1" class="mt-auto w-100">
+
+
+            <div id="chats" class="deslizar col-10 bg-fondo h-100 d-flex ">
+
+                <div id="con1" class="w-100 mt-auto ">
 
                     <div class="card mb-2">
                         <div class="card-body">
@@ -114,88 +142,105 @@
                 <div id="con2" class="mt-auto w-100 d-none"></div>
                 <div id="con3" class="mt-auto w-100 d-none"></div>
             </div>
+        </div>
 
-            <script>
-                function con(id) {
-                    document.getElementById("con1").classList.add("d-none");
-                    document.getElementById("btn1").classList.remove("active");
-                    document.getElementById("con2").classList.add("d-none");
-                    document.getElementById("btn2").classList.remove("active");
-                    document.getElementById("con3").classList.add("d-none");
-                    document.getElementById("btn3").classList.remove("active");
-                    document.getElementById("con" + id).classList.remove("d-none");
-                    document.getElementById("btn" + id).classList.add("active");
 
+        <script>
+            function imagenBarra(num) {
+                switch (num) {
+                    case '1':
+                        document.getElementById("perfilBarra").src = "amigos.jpg";
+                        break;
+                    case '2':
+                        document.getElementById("perfilBarra").src = "diana.png";
+                    case '3':
+                        document.getElementById("perfilBarra").src = "uber.png";
                 }
-                var canMove = true;
-                var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
-                var mensaje_juan = document.getElementById("mensaje_Juan").innerHTML;
-                var i = 0;
-                var mensajes = null;
-                fetch('./mensajes.json').then(response => response.json()).then(lectura);
+                console.log(num);
+            }
 
-                document.addEventListener("keydown", tecleo);
+            function con(id) {
+                document.getElementById("con1").classList.add("d-none");
+                document.getElementById("btn1").classList.remove("active");
+                document.getElementById("con2").classList.add("d-none");
+                document.getElementById("btn2").classList.remove("active");
+                document.getElementById("con3").classList.add("d-none");
+                document.getElementById("btn3").classList.remove("active");
+                document.getElementById("con" + id).classList.remove("d-none");
+                document.getElementById("btn" + id).classList.add("active");
 
-                function tecleo(evento) {
-                    if (evento.code == 'Enter' && i < mensajes.length && canMove) {
+            }
+            var canMove = true;
+            var mensaje_template = document.getElementById("mensaje_chat").innerHTML;
+            var mensaje_juan = document.getElementById("mensaje_Juan").innerHTML;
+            var i = 0;
+            var mensajes = null;
+            fetch('./mensajes.json').then(response => response.json()).then(lectura);
 
-                        if (mensajes[i].nombre_personaje == "Juan") {
-                            var html = mensaje_juan;
+            document.addEventListener("keydown", tecleo);
 
-                        } else {
-                            var html = mensaje_template;
-                        }
+            function tecleo(evento) {
+                if (evento.code == 'Enter' && i < mensajes.length && canMove) {
 
-                        html = html.replace("{NOMBRE_PERSONAJE}", mensajes[i].nombre_personaje);
-                        html = html.replace("{MENSAJE}", mensajes[i].mensaje);
-                        html = html.replace("{IMAGEN}", mensajes[i].imagen_de_perfil);
-                        html = html.replace("{TIEMPO}", mensajes[i].hora_de_envio);
-                        html = html.replace("{COLOR}", mensajes[i].color);
+                    if (mensajes[i].nombre_personaje == "Juan") {
+                        var html = mensaje_juan;
 
-                        document.getElementById(mensajes[i].conversacion).innerHTML += html;
-                        document.getElementById("bup").play();
-                        con(mensajes[i].conversacion.replace("con", ""));
-                        document.getElementById("chats").scrollTo(0, document.getElementById("chats").scrollHeight);
-                        i++;
-                        canMove = false;
-                        setTimeout(function() {
-                            canMove = true;
-                        }, 1000);
-                    }
-                }
-
-                function lectura(respuesta) {
-                    mensajes = respuesta;
-                }
-
-                function aparecer() {
-                    document.getElementById("textoC").innerHTML = "Mientras tanto Juan...";
-                    document.getElementById("cortinilla").classList.remove("animate__fadeOut");
-                    document.getElementById("cortinilla").classList.add("animate__fadeIn");
-                    canMove = false;
-                }
-
-                function desvanecer() {
-                    document.getElementById("cortinilla").classList.remove("animate__animated");
-
-                    document.getElementById("cortinilla").classList.remove("animate__fadeIn");
-                    document.getElementById("cortinilla").classList.add("animate__fadeOut");
-                    document.getElementById("cortinilla").classList.add("animate__animated");
-                    canMove = true;
-                }
-
-                function musica() {
-                    var musica = document.getElementById("musica");
-                    var botonmusica = document.getElementById("botonmusica");
-                    if (musica.paused) {
-                        musica.play();
-                        botonmusica.innerHTML = "🔊";
                     } else {
-                        musica.pause();
-                        botonmusica.innerHTML = "🔇";
+                        var html = mensaje_template;
                     }
+
+                    html = html.replace("{NOMBRE_PERSONAJE}", mensajes[i].nombre_personaje);
+                    html = html.replace("{MENSAJE}", mensajes[i].mensaje);
+                    html = html.replace("{IMAGEN}", mensajes[i].imagen_de_perfil);
+                    html = html.replace("{TIEMPO}", mensajes[i].hora_de_envio);
+                    html = html.replace("{COLOR}", mensajes[i].color);
+
+                    document.getElementById(mensajes[i].conversacion).innerHTML += html;
+                    document.getElementById("bup").play();
+                    con(mensajes[i].conversacion.replace("con", ""));
+                    imagenBarra(mensajes[i].conversacion.replace("con", ""));
+                    document.getElementById("BarraChat").innerHTML = document.getElementById("btn" + mensajes[i].conversacion.replace("con", "")).innerHTML;
+                    document.getElementById("chats").scrollTo(0, document.getElementById("chats").scrollHeight);
+                    i++;
+                    canMove = false;
+                    setTimeout(function() {
+                        canMove = true;
+                    }, 1000);
                 }
-            </script>
+            }
+
+            function lectura(respuesta) {
+                mensajes = respuesta;
+            }
+
+            function aparecer() {
+                document.getElementById("textoC").innerHTML = "Mientras tanto Juan...";
+                document.getElementById("cortinilla").classList.remove("animate__fadeOut");
+                document.getElementById("cortinilla").classList.add("animate__fadeIn");
+                canMove = false;
+            }
+
+            function desvanecer() {
+                document.getElementById("cortinilla").classList.remove("animate__animated");
+
+                document.getElementById("cortinilla").classList.remove("animate__fadeIn");
+                document.getElementById("cortinilla").classList.add("animate__fadeOut");
+                document.getElementById("cortinilla").classList.add("animate__animated");
+                canMove = true;
+            }
+
+            function musica() {
+                var musica = document.getElementById("musica");
+                var botonmusica = document.getElementById("botonmusica");
+                if (musica.paused) {
+                    musica.play();
+                    botonmusica.innerHTML = "🔊";
+                } else {
+                    musica.pause();
+                    botonmusica.innerHTML = "🔇";
+                }
+            }
+        </script>
 </body>
 
 </html>
