@@ -30,6 +30,26 @@
             background-color: ivory;
         }
         
+        .bg-barra.noche {
+            background-color: rgb(35, 66, 92);
+        }
+        
+        .bg-fondo.noche {
+            background-color: rgb(65, 89, 116);
+        }
+        
+        .bg-fondoBarra.noche {
+            background-color: rgb(64, 118, 180);
+        }
+        
+        .btn-color.noche {
+            background-color: rgb(72, 80, 90);
+        }
+        
+        .btn-color.active.noche {
+            background-color: rgb(61, 61, 50);
+        }
+        
         .bg-barra {
             background-color: SteelBlue;
         }
@@ -124,6 +144,7 @@
                 <button type="button" id="btn2" class="btn btn-color w-100 my-1" onclick="con(2)">bb <3 🤡</button>
                 <button type="button" id="btn3" class="btn btn-color w-100 my-1" onclick="con(3)">Uber 🚓</button>
                 <button type="button" id="botonmusica" class="btn btn-color my-1 fixed-bottom" onclick="musica()">🔊</button>
+                <button type="button" id="botonnoche" class="btn btn-color my-1 mx-5 fixed-bottom" onclick="modonoche()">🔆</button>
             </div>
 
 
@@ -146,6 +167,8 @@
 
 
         <script>
+            var modonoches = false;
+
             function imagenBarra(num) {
                 switch (num) {
                     case '1':
@@ -168,6 +191,18 @@
                 document.getElementById("btn3").classList.remove("active");
                 document.getElementById("con" + id).classList.remove("d-none");
                 document.getElementById("btn" + id).classList.add("active");
+
+            }
+
+            function modonoche() {
+
+
+                document.querySelector(".bg-fondo").classList.toggle("noche");
+                document.querySelector(".bg-barra").classList.toggle("noche");
+                document.querySelector(".bg-fondoBarra").classList.toggle("noche");
+
+                document.querySelector(".btn-color").classList.toggle("noche");
+
 
             }
             var canMove = true;
