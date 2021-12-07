@@ -46,10 +46,6 @@
             background-color: rgb(72, 80, 90);
         }
         
-        .btn-color.active.noche {
-            background-color: rgb(61, 61, 50);
-        }
-        
         .bg-barra {
             background-color: SteelBlue;
         }
@@ -86,6 +82,18 @@
             background-color: brown;
         }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEPBDJ1RWP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HEPBDJ1RWP');
+    </script>
 </head>
 
 <body class="h-100">
@@ -197,11 +205,10 @@
             function modonoche() {
 
 
-                document.querySelector(".bg-fondo").classList.toggle("noche");
-                document.querySelector(".bg-barra").classList.toggle("noche");
-                document.querySelector(".bg-fondoBarra").classList.toggle("noche");
-
-                document.querySelector(".btn-color").classList.toggle("noche");
+                document.querySelectorAll(".bg-fondo").classList.toggle("noche");
+                document.querySelectorAll(".bg-barra").classList.toggle("noche");
+                document.querySelectorAll(".bg-fondoBarra").classList.toggle("noche");
+                document.querySelectorAll(".btn-color").classList.toggle("noche");
 
 
             }
