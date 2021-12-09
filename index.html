@@ -8,7 +8,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name=robots content="index, follow">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=keywords content="Historia, chat, mensajes, webcomic">
+    <meta name=description content="La mejor historia de amor que verás nunca">
+    <meta name=twitter:card content=photo>
+    <meta name=twitter:site content=@drolejan>
+    <meta name=twitter:creator content=@drolejan>
+    <meta name=twitter:title content="Historia de amor">
+    <meta name=twitter:image:src content=https://i.imgur.com/8KpYb1J.jpeg>
+    <meta name=twitter:domain content=https://grimoire-games.itch.io>
+    <meta property=fb:app_id content=1973805279585727>
+    <meta property=og:image content=https://i.imgur.com/8KpYb1J.jpeg>
+    <meta property=og:title content="Historia de amor">
+    <meta property=og:url content=https://grimoire-games.itch.io>
+    <meta property=og:site_name content="Historia de amor">
+    <meta property=og:type content=profile>
+    <meta property=og:description content="La mejor historia de amor que verás nunca">
+
+
+
+    <title>Historia de Amor</title>
     <style>
         .mensajes {
             min-width: 400px;
@@ -97,6 +117,8 @@
 </head>
 
 <body class="h-100">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="Qs8uk2Ws"></script>
     <template id="mensaje_chat">
         <div class="card mb-2 {COLOR} pb-3 d-inline-block text-white mensajes">
             <div class="card-body pb-0">
@@ -153,6 +175,9 @@
                 <button type="button" id="btn3" class="btn btn-color w-100 my-1" onclick="con(3)">Uber 🚓</button>
                 <button type="button" id="botonmusica" class="btn btn-color my-1 fixed-bottom" onclick="musica()">🔊</button>
                 <button type="button" id="botonnoche" class="btn btn-color my-1 mx-5 fixed-bottom" onclick="modonoche()">🔆</button>
+                <div class="fb-share-button" data-href="https://wizardly-hypatia-152ea9.netlify.app" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwizardly-hypatia-152ea9.netlify.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
 
